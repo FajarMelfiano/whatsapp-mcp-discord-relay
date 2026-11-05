@@ -1,0 +1,13 @@
+{
+  "vip": [],
+  "quiet_hours": ["23:00", "07:00"],
+  "quiet_hours_allow_vip": true,
+  "digest_minutes": 45,
+  "briefing_time": "08:00",
+  "ai": true,
+  "ai_model": "gpt-4o-mini",
+  "debounce_seconds": 12,
+  "auto_reminder": true,
+  "max_fresh_minutes": 20,
+  "utc_offset_hours": 7
+}

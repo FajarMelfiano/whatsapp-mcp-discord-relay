@@ -1,0 +1,55 @@
+# --- secrets and personal runtime config ---
+bridge.token
+*.token
+discord_config.json
+notifier_config.json
+.env
+.env.*
+!.env.example
+discord_map.json
+discord_map*.json
+drafts.json
+notifier_state.json
+discord-bot.enabled
+
+# --- WhatsApp session, message data and media (never commit) ---
+whatsapp-bridge/store/
+relay.db
+relay.db*
+media_cache/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# --- logs, process files and generated output ---
+*.log
+*.out
+*.pid
+keepalive.pid
+build/
+dist/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# --- Go / compiled binaries ---
+whatsapp-bridge/whatsapp-bridge
+whatsapp-bridge/whatsapp-client
+whatsapp-bridge/*.bak
+whatsapp-bridge/*.bak[0-9]*
+whatsapp-bridge/*.pre-*
+
+# --- editors and OS ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,23 @@
+{
+  "token": "DISCORD_BOT_TOKEN_HERE",
+  "guild_id": "DISCORD_SERVER_ID_HERE",
+  "forum_channel_id": "DISCORD_FORUM_CHANNEL_ID_HERE",
+  "owner_id": "YOUR_DISCORD_USER_ID_HERE",
+  "allowed_users": [],
+  "bridge_url": "http://127.0.0.1:8080",
+  "sync_days": 30,
+  "history_days": 7,
+  "backfill_days": 30,
+  "backfill_limit": 50,
+  "thread_policy": "mapped",
+  "allowlist": [],
+  "archive_after_days": 30,
+  "mark_read_on_relay": false,
+  "mirror_edits": true,
+  "mirror_deletes": true,
+  "media_cache_days": 14,
+  "media_cache_max_mb": 512,
+  "media_max_mb": 8,
+  "discord_rate_per_sec": 4,
+  "contacts_refresh_seconds": 900
+}
